@@ -1,0 +1,23 @@
+{
+    "project_type": "javascript",
+
+    "debugMode" : 1,
+    "showFPS" : true,
+    "frameRate" : 60,
+    "noCache" : false,
+    "id" : "gameCanvas",
+    "renderMode" : 0,
+    "engineDir":"frameworks/cocos2d-html5",
+
+    "modules" : ["cocos2d", "cocostudio", "ccui", "external"],
+
+    "jsList" : [
+        "src/resource.js",
+        "src/gs_header.js",
+        "src/titleScene.js",
+        "src/rocker_data.js",
+        "src/rocker.js",
+        "src/rockerTestScene.js",
+        "src/skillScene.js"
+    ]
+}
